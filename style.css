@@ -1,0 +1,58 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/* -------------------Header style ----------------------- */
+
+.header {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-around;
+    overflow: hidden;
+    background-color: #2b2b2b;
+}
+
+.logoTextDiv {
+    width: 36%;
+    height: auto;
+    padding-top: 20px ;
+    padding-left: 10px;
+}
+.logoTextDiv span {
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+}
+.whiteText {
+    color: white;
+}
+.blue {
+    color: #3a51b0
+}
+.menuDiv {
+    width: 35%;
+    height: auto;
+    padding-top: 32px ;
+}
+.main {
+    color: #3a51b0;
+    font-family: 'Montserrat', sans-serif;
+}
+.co, .services, .contact {
+    padding-left: 20px;
+    cursor: pointer;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    transition: 0.3s;
+}
+.co:hover {
+    color: #3a51b0;
+}
+.services:hover {
+    color: #3a51b0;
+}
+.contact:hover {
+    color: #3a51b0;
+}
+
