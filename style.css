@@ -71,7 +71,6 @@
 .contetnConteiner {
     width: 73%;
     height: 320px;
-    border: 2px solid black;
     margin: 0 auto;
     display: flex;
     justify-content: space-around;
@@ -119,7 +118,8 @@
     text-decoration: none;
     border: none;
     color: white;
-    background: linear-gradient(to top, #6f82d1, #3a51b0)
+    background: linear-gradient(to top, #6f82d1, #3a51b0);
+    cursor: pointer;
 }
 .iconsDiv {
     width: 100px;
@@ -131,4 +131,85 @@
 .fb, .twittwer, .linkedin {
     width: 25px;
     height: 25px;
+}
+
+/* --------------------new and job style container--------- */
+
+.newsAndJobContainer {
+    width: 75%;
+    height: 370px;
+    margin-top: 30px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.news {
+    width: 60%;
+    height: auto;
+}
+.parent{
+    width: 100%;
+    height: 180px;
+    display: flex;
+}
+
+.imageDiv{
+    width: 20%;
+    height: auto;
+    overflow: hidden;
+}
+.imageDiv img {
+    width: 130px;
+    height: auto;
+    padding-top: 30px;
+}
+.infoDiv {
+    width: 80%;
+    height: auto;
+    padding-left: 20px;
+}
+.infoDiv p {
+    font-size: 12px;
+}
+.secondParent {
+    width: 100%;
+    height: 180px;
+    display: flex;
+}
+.secondImageDiv {
+    width: 20%;
+    height: 180px;
+    overflow: hidden;
+}
+.secondImageDiv img {
+    width: 130px;
+    height: auto;
+    padding-top: 40px;
+}
+.secondInfoDiv {
+    width: 80%;
+    height: 180px;
+    padding-left: 20px;
+
+}
+.secondInfoDiv p {
+    font-size: 12px;
+}
+.job {
+    width: 40%;
+    height: auto;
+}
+.jobContent {
+ width: 80%;
+ height: auto;
+ margin: 0 auto;
+ margin-top: 30px;
+}
+.job span {
+    cursor: pointer;
+    color: #3a51b0;
+    font-family: 'Montserrat', sans-serif;
+}
+.job span:hover {
+    color: #6f82d1;
 }
